@@ -4,5 +4,6 @@ def greet(name):
     return f"Hello, {name}! The currecnt time is {datetime.now():%H:%M:%S}"
 
 if __name__ == "__main__":
-    print(greet('world'))
+    name = input("enter your name:")
+    print(greet(name))
 
